@@ -1,0 +1,19 @@
+{
+    "name": "orozco92/send-mail",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "orozco92"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "6.0",
+        "samejack/php-argv": "^1.0",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
